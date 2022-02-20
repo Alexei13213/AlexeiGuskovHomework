@@ -2,7 +2,6 @@ from bs4 import BeautifulSoup as BS
 import requests
 url = 'https://www.google.com/search?q=eur+to+rub&source=hp&ei=Y3kRYuHCA_aTwPAPkMSQ4AQ&iflsig=AHkkrS4AAAAAYhGHc7Ksn3dYdETj2Snv8wwEc1kn93Cy&oq=eur+to&gs_lcp=Cgdnd3Mtd2l6EAEYADIQCAAQgAQQsQMQgwEQRhCCAjIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDoICAAQgAQQsQM6CwgAEIAEELEDEIMBOhEILhCABBCxAxCDARDHARDRAzoRCC4QgAQQsQMQgwEQxwEQrwE6FAguEIAEELEDEIMBEMcBENEDENQCOgsILhCABBDHARCjAjoLCC4QgAQQxwEQrwE6BwgAEIAEEApQAFi8EmDZJWgAcAB4AIABPYgBlAKSAQE2mAEAoAEB&sclient=gws-wiz'
 headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36'}
-current_conv_price = 0
 
 
 def eur_rub():
